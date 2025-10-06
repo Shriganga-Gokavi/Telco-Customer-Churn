@@ -33,5 +33,9 @@ Or install all dependencies at once:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
+## Installation
+https://github.com/Shriganga-Gokavi/Telco-Customer-Churn.git
+
+
 
 
