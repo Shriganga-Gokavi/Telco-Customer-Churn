@@ -1,6 +1,3 @@
-# Telco-Customer-Churn
-Machine Learning project to predict customer churn using Logistic Regression, data preprocessing, and model evaluation.
-
 # Telco Customer Churn Prediction
 This project predicts customer churn for a telecom company using a **Logistic Regression** model. Users can explore the dataset, visualize class imbalance, train a model, evaluate it, and make predictions for new customers.
 
