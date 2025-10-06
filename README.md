@@ -28,13 +28,14 @@ It is a menu-driven program that allows users to explore the dataset, visualize 
   - scikit-learn (`pip install scikit-learn`)  
   - openpyxl (`pip install openpyxl`)  
 
-Or install all dependencies at once:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 ## Installation
 https://github.com/Shriganga-Gokavi/Telco-Customer-Churn.git
+cd
+##Install the required dependencies:
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+##Run the script:
+python model_project.py
 
 
 
