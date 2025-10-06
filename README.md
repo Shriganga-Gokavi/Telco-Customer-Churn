@@ -1,37 +1,37 @@
 # Telco Customer Churn Prediction
-This project predicts customer churn for a telecom company using a **Logistic Regression** model. Users can explore the dataset, visualize class imbalance, train a model, evaluate it, and make predictions for new customers.
+
+## Description
+This Python project predicts customer churn for a telecom company using **Logistic Regression**.  
+It is a menu-driven program that allows users to explore the dataset, visualize class imbalance, train and evaluate a model, and predict churn for new customers.  
 
 ---
 
-## **Features**
-
-1. **Dataset Exploration**
-   - View column names and data types.
-   - Check unique values in each column.
-
-2. **Class Imbalance Visualization**
-   - Countplot of churned vs active customers.
-
-3. **Model Training**
-   - Preprocessing: Label encoding, one-hot encoding, and scaling.
-   - Logistic Regression model with balanced class weights.
-   - Split dataset into training and testing sets.
-
-4. **Customer Prediction**
-   - Input customer details and predict churn (0 = active, 1 = churned).
-
-5. **Model Evaluation**
-   - Confusion matrix visualization.
-   - Accuracy, Precision, Recall, and F1 Score metrics.
-   - Comparative bar plot of evaluation metrics.
+## Features
+- Explore dataset details (column names, data types, unique values)  
+- Visualize class imbalance (Churn distribution)  
+- Train Logistic Regression model with preprocessed data  
+- Scale numeric features (tenure, MonthlyCharges, TotalCharges)  
+- Encode categorical features (Label Encoding, One-Hot Encoding)  
+- Predict churn for new customer inputs  
+- Evaluate model with confusion matrix and metrics (Accuracy, Precision, Recall, F1 Score)  
+- Visualize results with heatmap and bar plots  
 
 ---
 
-## **Installation**
+## Requirements
+- Python 3.x  
+- Libraries:
+  - pandas (`pip install pandas`)  
+  - numpy (`pip install numpy`)  
+  - matplotlib (`pip install matplotlib`)  
+  - seaborn (`pip install seaborn`)  
+  - scikit-learn (`pip install scikit-learn`)  
+  - openpyxl (`pip install openpyxl`)  
 
-1. Clone this repository or download the code files.
-2. Install required Python packages:
+Or install all dependencies at once:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+
+
 
