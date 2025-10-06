@@ -36,9 +36,11 @@ cd Telco-Customer-Churn
 
 
 ##Install the required dependencies:
+
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 ##Run the script:
+
 python model_project.py
 
 
